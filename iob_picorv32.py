@@ -23,7 +23,6 @@ class iob_picorv32(iob_module):
         """Init module attributes"""
         cls.name = 'iob_picorv32'
         cls.version = 'V0.10'
-        cls.flows = ''
         cls.setup_dir = os.path.dirname(__file__)
         cls.submodules = [
             iob_reg,
